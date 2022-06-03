@@ -47,6 +47,12 @@
 .slide-img .slide-box-img a{
     width: 177px; 
     outline: none;
+    border: 2px solid #000;
+    border-right: none;
+}
+
+.img-container .slide-img a:last-child{
+    border-right: 2px solid #000;
 }
 
 .slide-img>.slide-box-img>a>img{
@@ -63,18 +69,18 @@
     padding: 0;
 }
 
-.my-profile{
+.my-profile-header{
     margin: 0 1.2em;
     padding: .6em 0;
     background-color: #fff;
     border-radius: 5px;
 }
 
-.my-profile p{
+.my-profile-header p{
     display: inline-block;
 }
 
-.my-profile .col:nth-child(2){
+.my-profile-header .col:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,17 +96,17 @@
     padding: .7em .8em;
 }
 
-.my-profile .col:nth-child(2) a{
+.my-profile-header .col:nth-child(2) a{
     display: flex;
     flex-direction: column;
 }
 
-.my-profile span{
+.my-profile-header span{
     padding: 0 1.2em;
     background-color: #ddd;
 }
 
-.my-project{
+.my-project-text{
     margin: 1.2em 1.2em 0;
     height: 612px;
     padding: .8em;
@@ -108,12 +114,12 @@
     border-radius: 5px;
 }
 
-.my-project .title{ /* 프로젝트 제목 */
+.my-project-text .title{ /* 프로젝트 제목 */
     border-bottom: 1px solid #ddd;
     padding: .8em 0;
 }
 
-.my-project .title p{
+.my-project-text .title p{
     text-align: right;
 }
 

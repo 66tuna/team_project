@@ -1,25 +1,40 @@
-/* 유저페이지 */
 .view-section {
     position: relative;
 }
 
+.user-section {
+    margin: 1.2em 1.2em 0;
+    height: 700px;
+    padding: 0.8em;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
-.user-box {
+/* 유저페이지 프로필 */
+.user-profile {
     position: absolute;
     width: 400px;
     height: 250px;
     display: flex;
     bottom: 100px;
+    padding-bottom: 580px;
+}
+
+.user-img {
+    padding-left: 50px;
+    padding-top: 5px;
 }
 
 .user-img img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
 }
 
 .user-text {
     padding: 20px;
+    padding-left: 20px;
 }
 
 /* 유저페이지 업로드 */
@@ -30,10 +45,11 @@
     height: 500px;
     padding-top: 20px;
     top: -200px;
-
+    margin-top: 380px;
 }
 
 .upload-group .card {
     width: 320px;
     height: 250px;
+    background-color: #ddd;
 }
